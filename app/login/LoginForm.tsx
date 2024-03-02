@@ -29,7 +29,7 @@ const LoginForm:React.FC<LoginFormProps> = ({currentUser}) => {
         if(currentUser){
             router.push('/cart')
             router.refresh();
-            localStorage.setItem('currentUser' ,JSON.stringify(currentUser));
+            localStorage.setItem('currentUser' , JSON.stringify(currentUser));
         }
     },[])
     const OnSubmit: SubmitHandler<FieldValues> = (data) => {
@@ -81,7 +81,7 @@ const LoginForm:React.FC<LoginFormProps> = ({currentUser}) => {
             />
             <button className="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded" onClick={handleSubmit(OnSubmit)}> {isLoading ? 'Loading' : 'Log In'} </button>
             <p className="text-sm">
-                Don't have an account? <Link className="underline" href='/register'>Sign Up</Link>
+                Dont have an account? <Link className="underline" href='/register'>Sign Up</Link>
             </p>
         </>
     );

@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className="w-full md:w-1/3 mb-6 md:mb-2">
                     <h3 className="text-base font-bold mb-2">About Us</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+                        and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever 
                         since the 1500s, when an unknown printer took a galley of type and scrambled it 
                         to make a type specimen book. It has survived not only five centuries.</p>
                     <p>&copy; {new Date().getFullYear()} E~Shop. All rights reserved</p>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </FooterList>
             </div>
         </Container>
-    </footer>;
+    </footer>
 }
 
 export default Footer;
